@@ -45,7 +45,6 @@ const clearCartItem = (cartItems, cartItemToClear) => {
 };
 
 export const CartProvider = ({ children }) => {
-  console.log("cartprovider");
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [cartItems, setCartItems] = useState([]);
   const [cartCount, setCartCount] = useState(0);
